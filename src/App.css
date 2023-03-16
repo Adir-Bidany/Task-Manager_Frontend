@@ -1,0 +1,52 @@
+.App {
+    /* background-color: yellow; */
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100%;
+    width: 100%;
+}
+
+.App > .Header {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 12 span;
+    grid-row: 1 span;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.App > .Menu {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 2 span;
+    grid-row: 10 span;
+}
+.App > .Main {
+    background: linear-gradient(
+        360deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 10 span;
+    grid-row: 10 span;
+}
+.App > .Footer {
+    background: linear-gradient(
+        180deg,
+        rgb(241, 241, 241) 0%,
+        rgb(250, 250, 248) 100%
+    );
+    grid-column: 12 span;
+    grid-row: 1 span;
+}
