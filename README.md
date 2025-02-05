@@ -22,7 +22,7 @@ Technologies Used:
 
 Installation:
 1. Clone the repository:
-git clone https://github.com/your-username/todo.git
+git clone https://github.com/Adir-Bidany/todo.git
 cd todo
 
 2. Install dependencies:
